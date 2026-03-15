@@ -1,0 +1,20 @@
+app/forgot-password.tsx(26,24): error TS2345: Argument of type '`/${string}`' is not assignable to parameter of type 'RelativePathString | ExternalPathString | "/" | `/?${string}` | `/#${string}` | "/login" | `/login?${string}` | `/login#${string}` | "/modal" | `/modal?${string}` | `/modal#${string}` | ... 12 more ... | { ...; }'.
+app/forgot-password.tsx(36,17): error TS2345: Argument of type '"/otp"' is not assignable to parameter of type 'RelativePathString | ExternalPathString | "/" | `/?${string}` | `/#${string}` | "/login" | `/login?${string}` | `/login#${string}` | "/modal" | `/modal?${string}` | `/modal#${string}` | ... 12 more ... | { ...; }'.
+app/forgot-password.tsx(42,22): error TS2345: Argument of type '`/${string}`' is not assignable to parameter of type 'RelativePathString | ExternalPathString | "/" | `/?${string}` | `/#${string}` | "/login" | `/login?${string}` | `/login#${string}` | "/modal" | `/modal?${string}` | `/modal#${string}` | ... 12 more ... | { ...; }'.
+app/login.tsx(100,51): error TS2345: Argument of type '"/forgot-password"' is not assignable to parameter of type 'RelativePathString | ExternalPathString | "/" | `/?${string}` | `/#${string}` | "/login" | `/login?${string}` | `/login#${string}` | "/modal" | `/modal?${string}` | `/modal#${string}` | ... 12 more ... | { ...; }'.
+app/new-password.tsx(31,24): error TS2345: Argument of type '`/${string}`' is not assignable to parameter of type 'RelativePathString | ExternalPathString | "/" | `/?${string}` | `/#${string}` | "/login" | `/login?${string}` | `/login#${string}` | "/modal" | `/modal?${string}` | `/modal#${string}` | ... 12 more ... | { ...; }'.
+app/new-password.tsx(48,22): error TS2345: Argument of type '`/${string}`' is not assignable to parameter of type 'RelativePathString | ExternalPathString | "/" | `/?${string}` | `/#${string}` | "/login" | `/login?${string}` | `/login#${string}` | "/modal" | `/modal?${string}` | `/modal#${string}` | ... 12 more ... | { ...; }'.
+app/otp.tsx(27,24): error TS2345: Argument of type '`/${string}`' is not assignable to parameter of type 'RelativePathString | ExternalPathString | "/" | `/?${string}` | `/#${string}` | "/login" | `/login?${string}` | `/login#${string}` | "/modal" | `/modal?${string}` | `/modal#${string}` | ... 12 more ... | { ...; }'.
+app/otp.tsx(37,17): error TS2345: Argument of type '"/new-password"' is not assignable to parameter of type 'RelativePathString | ExternalPathString | "/" | `/?${string}` | `/#${string}` | "/login" | `/login?${string}` | `/login#${string}` | "/modal" | `/modal?${string}` | `/modal#${string}` | ... 12 more ... | { ...; }'.
+app/otp.tsx(43,22): error TS2345: Argument of type '`/${string}`' is not assignable to parameter of type 'RelativePathString | ExternalPathString | "/" | `/?${string}` | `/#${string}` | "/login" | `/login?${string}` | `/login#${string}` | "/modal" | `/modal?${string}` | `/modal#${string}` | ... 12 more ... | { ...; }'.
+app/otp.tsx(91,15): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: TextInputProps): TextInput', gave the following error.
+    Type '(ref: TextInput | null) => TextInput | null' is not assignable to type 'Ref<TextInput> | undefined'.
+      Type '(ref: TextInput | null) => TextInput | null' is not assignable to type '(instance: TextInput | null) => void | (() => VoidOrUndefinedOnly)'.
+        Type 'TextInput | null' is not assignable to type 'void | (() => VoidOrUndefinedOnly)'.
+          Type 'null' is not assignable to type 'void | (() => VoidOrUndefinedOnly)'.
+  Overload 2 of 2, '(props: TextInputProps, context: any): TextInput', gave the following error.
+    Type '(ref: TextInput | null) => TextInput | null' is not assignable to type 'Ref<TextInput> | undefined'.
+      Type '(ref: TextInput | null) => TextInput | null' is not assignable to type '(instance: TextInput | null) => void | (() => VoidOrUndefinedOnly)'.
+        Type 'TextInput | null' is not assignable to type 'void | (() => VoidOrUndefinedOnly)'.
+          Type 'null' is not assignable to type 'void | (() => VoidOrUndefinedOnly)'.
