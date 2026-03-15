@@ -1,10 +1,6 @@
-🏨 Dawatime Assignment — Hotel Booking App
+# Hotel-Booking-App
 
-A React Native mobile application for browsing and booking hotels, built using Expo with a Node.js + Express backend.
-
-This project demonstrates a full-stack mobile architecture, including authentication, booking management, and API communication between a mobile client and backend server.
-
----
+The Hotel Booking App is a full-stack mobile application built with React Native and Node.js/Express, where users can register, browse hotels, and manage reservations through RESTful APIs. It uses in-memory mock data instead of a live database and demonstrates key concepts like authentication, API integration, and client–server architecture.
 
 # Running the App Locally
 
