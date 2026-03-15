@@ -5,7 +5,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Platform } from 'react-native';
 import Constants from 'expo-constants';
 
-const BASE_URL = 'https://dawatime-api.loca.lt/api';
+// Replace this with your actual Render URL after deployment (e.g., https://dawatime-backend.onrender.com/api)
+const BASE_URL = 'https://YOUR_APP_NAME.onrender.com/api';
 const TOKEN_KEY = 'dawatime_auth_token';
 
 
